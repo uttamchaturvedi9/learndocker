@@ -1,8 +1,5 @@
 Docker Commands
-  1. Build docker : docker build -t performancemanager-webapp .
-
+   1. Build docker : docker build -t performancemanager-webapp .
    2.   Run Docker :   docker run -p 3000:3000 performancemanager-webapp
-
-   3.  Login to azure container registry: az acr login --name crvacoreqas.azurecr.io -u crvacoreqas -p <password>
-  
+   3.  Login to azure container registry: az acr login --name crvacoreqas.azurecr.io -u crvacoreqas -p <password>  
    4. After login pull image toi local : docker pull crvacoreqas.azurecr.io/perma:latest
